@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+            <h1>Task List 2022</h1>
+        </nav>
+        <form class="search-form">
+            <input type="text" class="input-search" placeholder="Agrega un tarea">
+            <button  type="submit" class="add-task-button">Add Task</button>
+        </form>
+    </header>
+    <main>
+        <section class="tasks-section">
+           <div class="task-subtitle"><h2>Tasks</h2></div>
+           <div class="tasks-list-container">
+            <div class="task-item">
+                <input type="text" class="task-description" value="My Task" readonly>
+                <div class="task-options">
+                    <button  class="edit-button">Edit</button>
+                    <button class="delete-button">Delete</button>
+                </div>
+            </div>
+           </div>
+        </section>
+
+        <script type="module" src="/app.js"></script>
+
+    </main>
+</body>
+</html>

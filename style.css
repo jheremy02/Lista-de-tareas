@@ -1,0 +1,128 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #283047;
+    overflow-x: hidden;
+}
+
+.navbar-container {
+    width: 100vw;
+    color: #4B556C;
+    height: 8rem;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 1.6rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input-search {
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    background-color: #1f2536;
+    border: none;
+    padding: 15px;
+    color: white;
+    outline: none;
+    
+}
+
+
+.add-task-button {
+    width: 5rem;
+    border-radius: 7px;
+    background-color: #4B556C;
+    border: none;
+    color: #00D5C3;
+}
+
+.task-subtitle {
+    text-align: center;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4B556C;
+}
+
+.tasks-section {
+    
+    width: 100vw;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.tasks-list-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.task-item {
+    width: 100%;
+    max-width: 37rem;;
+    background-color: #191D28;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height: 4rem;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+button {
+    width: 4rem;
+    border-radius: 6px;
+    height: 2rem;
+    border: none;
+    color: white;
+}
+
+.delete-button {
+    background-color:#A6143B ;
+}
+
+.edit-button {
+    background-color: #1fc75a;
+}
+.task-description {
+   background-color: #191D28;
+    color: white;
+    outline: none;
+    border: none;
+    height: 2.4rem;
+    width: 60%;
+    border-radius: 6px;
+    text-indent: 7px;
+}
+
+.task-description-edit {
+    background-color: #1f2536;
+}
+
+.inputDescTask{
+ width: 60%;
+ height: 3rem;
+ outline: none;
+ background-color: #191D28;
+ border: none;
+}
+
+.save-button {
+    background-color:#1B8EF2;
+}
